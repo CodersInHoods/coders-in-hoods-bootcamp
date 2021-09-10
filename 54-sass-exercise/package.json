@@ -1,0 +1,23 @@
+{
+  "name": "51-sass-exercise",
+  "version": "1.0.0",
+  "description": "1. Create a scss file `theme` and declare the next variables: - color-primary; - color-secondary; - font-size-title; - font-size-subtitle; - font-size-text; 2. Style each type of elements inside `.main` with nesting. 3. Add hover stylings to third `li` from `.main` with nesting and `&`. 4. Create a function `setEms` which takes number as an argument and multiply by 14px; 5. Create a scss file `mixins` and create a mixin `container` with some default stylings. 7. Create some markup to test all your created styles. 8. create a function which takes argument(`small`, `medium`, `large`) and return font size `14px`, `18px` and `24px` respectfully.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CodersInHoods/scss-exercise.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/CodersInHoods/scss-exercise/issues"
+  },
+  "homepage": "https://github.com/CodersInHoods/scss-exercise#readme",
+  "dependencies": {
+    "sass": "^1.26.10"
+  }
+}

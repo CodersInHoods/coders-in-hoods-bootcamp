@@ -1,0 +1,98 @@
+body {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+}
+
+button {
+  padding: 0.5em 2em;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  transition: 0.2s;
+  margin: 0 0.5em;
+}
+
+button.small {
+  padding: 0.5em 1em;
+}
+
+button:hover {
+  filter: brightness(0.9);
+}
+
+button.main {
+  background-color: #21a1f6;
+}
+
+button.danger {
+  background-color: #db0202;
+}
+
+.app button.main:disabled {
+  background-color: #adadad;
+  cursor: not-allowed;
+}
+
+.app {
+  width: 600px;
+  margin: 5em auto;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3), 3px 10px 20px rgba(0, 0, 0, 0.1);
+}
+
+.app form {
+  padding: 1em;
+  display: flex;
+}
+
+.app form input {
+  flex-grow: 1;
+  border: none;
+  border-bottom: 1px solid #ddd;
+  margin-right: 1em;
+  transition: 0.2s;
+}
+
+.app form input:focus,
+.app form input:active {
+  border-bottom: 1px solid #21a1f6;
+  outline: none;
+}
+
+.app ul {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+.app ul li {
+  padding: 1em;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  transition: 0.2s;
+  border-bottom: 1px solid #eee;
+}
+
+.app ul li:hover {
+  background-color: #eee;
+}
+
+.app ul li .content {
+  display: flex;
+  align-items: center;
+  flex-grow: 1;
+}
+
+.app ul li .content input {
+  margin-right: 1em;
+}
+
+.app ul li input,
+.app ul li button {
+  cursor: pointer;
+}
+
+.app ul li input:checked + span {
+  text-decoration: line-through;
+}
