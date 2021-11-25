@@ -40,8 +40,8 @@
       <fieldset>
         <legend>Pesonal data</legend>
         <div>
-          <label for="text_input">Text Input</label>
-          <input type="text" placeholder="This is text input" required />
+          <label for="text_input" >Text Input</label>
+          <input type="text" id="text_input" placeholder="This is text input" required />
         </div>
         <div>
           <label for="number_input">Number Input</label>
@@ -131,8 +131,17 @@
           <input type="file" name="cv_file" />
         </div>
       </fieldset>
+      <select name="job-type">
+        <option value="" selected disabled>Select option</option>
+        <option value="python_develop">Python develop</option>
+        <option value="python_develop">JS develop</option>
+        <option value="python_develop">Ruby develop</option>
+        <option value="python_develop">Java develop</option>
+        <option value="python_develop">PHP develop</option>
+      </select>
       <div class="submit_form">
         <input type="submit" value="Submit" />
+        <button type="reset">Reset</button>
       </div>
     </form>
   </body>

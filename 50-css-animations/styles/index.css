@@ -96,13 +96,13 @@ nav ul li a.active {
 /* Transition */
 .transition_item {
   /* transition: height .5s ease .5s; */ /* property duration timing-function delay */
-  /* transition: 0.5s ease; */
+  transition: 0.5s ease;
 }
 
 .transition_item:hover {
-  /* height: 300px; */
-  /* transform: rotate(-45deg); */
-  /* background-color: rgb(72, 0, 155); */
+  height: 300px;
+  transform: rotate(-45deg);
+  background-color: rgb(72, 0, 155);
 }
 
 /* Keyframes */
